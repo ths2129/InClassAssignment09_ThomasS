@@ -38,15 +38,15 @@ public class SecondPage extends AppCompatActivity {
         displayText = (TextView) findViewById(R.id.display_text);
         businessRef.addValueEventListener(new ValueEventListener() { //if values chnage they can be pulled
             @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                Business b = dataSnapshot.getValue(Business.class); //object - where we are looking
-                displayText.setText(b.toString()); //on
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                Business b = dataSnapshot.getValue(Business.class); //object - where we are looking - library - getvalue
+                displayText.setText(b.toString()); //object into string
 
             }
 
             @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-                Toast.makeText(SecondPage.this, "Error", Toast.LENGTH_SHORT).show();
+            public void onCancelled(DatabaseError databaseError) {
+                Toast.makeText(SecondPage.this, "Error loading Firbase", Toast.LENGTH_SHORT).show();
             }
 
         });
@@ -54,9 +54,11 @@ public class SecondPage extends AppCompatActivity {
 
     public void setBusiness(View view) { //push this
         businessRef.setValue(new Business("Pratt Institute", "Clinton Hill", 10000000, true));//new object Business
+        Toast.makeText(this, "Added to FireBase", Toast.LENGTH_SHORT).show();
     }
 
     public void addBusiness(View view) {
         myBusinessRef.push().setValue(new Business("Teachers College", "Manhattan", 10000000, true)); //push always starts a new one
+        Toast.makeText(this, "Added another business", Toast.LENGTH_SHORT).show();
     }
 }

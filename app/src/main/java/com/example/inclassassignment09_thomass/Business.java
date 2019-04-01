@@ -22,12 +22,11 @@ public class Business {
 
     @Override
     public String toString() {
-        return "Business }" +
-                "name='" + name + '\'' +
-                ", location='" + location + '\'' +
-                ", annualProfit=" + annualProfit +
-                ", nonProfit=" + nonProfit +
-                "{";
+        return "Business" + "\n" +
+                "Name: " + name + "\n" +
+                "location: " + location + "\n" +
+                "AnnualProfit: " + annualProfit + "\n" +
+                "NonProfit: " + nonProfit;
     }
 
 
