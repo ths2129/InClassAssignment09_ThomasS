@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "424909963492",
+    "firebase_url": "https://inclassassignment09thomass.firebaseio.com",
+    "project_id": "inclassassignment09thomass",
+    "storage_bucket": "inclassassignment09thomass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424909963492:android:d19137ece89715d6",
+        "android_client_info": {
+          "package_name": "com.example.android.addToFirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424909963492-7v92im65v0e38n2mkq57sbh23sl5ntvr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.addToFirebase",
+            "certificate_hash": "35cc6b60f8626e139d51f52690e4a440722eda8a"
+          }
+        },
+        {
+          "client_id": "424909963492-guunr7jhq2110hfgn5oean22c8vr7qcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ83hP9DMPMZxJtdXuO7Gl_3jv7jwUqm8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424909963492-guunr7jhq2110hfgn5oean22c8vr7qcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424909963492:android:59c22220b3908a77",
+        "android_client_info": {
+          "package_name": "com.example.inclassassignment09_thomass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424909963492-qgbugvvncr9g08k5fjj1k8sqfpe3dqal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inclassassignment09_thomass",
+            "certificate_hash": "35cc6b60f8626e139d51f52690e4a440722eda8a"
+          }
+        },
+        {
+          "client_id": "424909963492-guunr7jhq2110hfgn5oean22c8vr7qcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ83hP9DMPMZxJtdXuO7Gl_3jv7jwUqm8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424909963492-guunr7jhq2110hfgn5oean22c8vr7qcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
